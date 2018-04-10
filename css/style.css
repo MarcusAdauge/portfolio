@@ -8,7 +8,7 @@ body {
 }
 
 .section {
-	margin-bottom: 3rem;
+	margin: 1rem auto !important;
 }
 
 .section-heading {
@@ -16,7 +16,7 @@ body {
 	font-size: 2.5rem;
 	color: #333333; 
 	font-weight: 300;
-	margin-bottom: 1.5rem;
+	margin: 2rem 0;
 }
 
 .accent-text {
@@ -26,6 +26,23 @@ body {
 .accent-text-bold {
 	font-weight: 800;
 	color: #7D7ABC;
+}
+
+.divider {
+	margin: auto;
+	width: 960px;
+	height: 1px;
+	background-color: #BBBBBB;
+}
+
+.divider-pattern {
+	height: 2.2rem;
+	background-image: url('../res/divider-pattern-2.png');
+	background-size: 22rem;
+}
+
+.container {
+	width: 960px;
 }
 
 /* Header */
@@ -81,6 +98,11 @@ body {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.5rem;
+	transition: opacity 0.15s ease-in-out;
+}
+
+.menu li a:hover {
+	opacity: 0.5;
 }
 
 .hero-text {
@@ -97,10 +119,6 @@ body {
 /* End of Header */
 
 /* About me */
-.about {
-	margin: auto;
-}
-
 .hobbies {
 	margin-top: 2rem;
 }
@@ -115,7 +133,11 @@ body {
 }
 
 .hobbies p {
+	font-size: 1.2rem;
 	margin-top: 0.75rem;
-	text-transform: uppercase;
 }
 /* End of About me */
+
+/* My Works */
+
+/* End of My Works */
