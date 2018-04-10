@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #333333;
+}
+
+.section {
+	margin-bottom: 3rem;
+}
+
+.section-heading {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5rem;
+	color: #333333; 
+	font-weight: 300;
+	margin-bottom: 1.5rem;
+}
+
+.accent-text {
+	color: #7D7ABC;
+}
+
+.accent-text-bold {
+	font-weight: 800;
+	color: #7D7ABC;
+}
+
+/* Header */
+.header {
+	width: 100%;
+	height: 100vh;
+	background-image: url('../res/header.jpg');
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	margin-bottom: 3rem;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.menu-bar {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.menu-bar .row {
+	margin: 2rem 0;
+}
+
+.logo {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+}
+
+.menu {
+	text-align: right;
+	list-style-type: none;
+}
+
+.menu li {
+	display: inline-block;
+	padding-right: 1rem;
+}
+
+.menu li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5rem;
+}
+
+.hero-text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 4rem;
+	text-align: center;
+	font-weight: 100;
+	position: absolute;
+	color: #FFFFFF;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+/* End of Header */
+
+/* About me */
+.about {
+	margin: auto;
+}
+
+.hobbies {
+	margin-top: 2rem;
+}
+
+.hobbies .col {
+	text-align: center;
+}
+
+.hobbies img {
+	width: 8rem;
+	height: auto;
+}
+
+.hobbies p {
+	margin-top: 0.75rem;
+	text-transform: uppercase;
+}
+/* End of About me */
