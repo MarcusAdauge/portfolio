@@ -9,6 +9,11 @@ body {
 
 .section {
 	margin: 1rem auto !important;
+	padding-top: 2rem;
+}
+
+.section-gray {
+	background-color: #EEEEEE;
 }
 
 .section-heading {
@@ -16,7 +21,8 @@ body {
 	font-size: 2.5rem;
 	color: #333333; 
 	font-weight: 300;
-	margin: 2rem 0;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
 }
 
 .accent-text {
@@ -26,19 +32,6 @@ body {
 .accent-text-bold {
 	font-weight: 800;
 	color: #7D7ABC;
-}
-
-.divider {
-	margin: auto;
-	width: 960px;
-	height: 1px;
-	background-color: #BBBBBB;
-}
-
-.divider-pattern {
-	height: 2.2rem;
-	background-image: url('../res/divider-pattern-2.png');
-	background-size: 22rem;
 }
 
 .container {
@@ -55,7 +48,6 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	position: relative;
-	margin-bottom: 3rem;
 }
 
 .overlay {
@@ -139,5 +131,27 @@ body {
 /* End of About me */
 
 /* My Works */
+.gallery {
+	padding: 10px;
+	max-width: 100%;
+	margin: 0 auto;
+	height: 800px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
 
+.item {
+	background-color: #DDDDDD;
+  	/*height: 150px;*/
+  	width: 32%;
+  	margin: 1%;
+  	padding: 10px;
+}
+
+.item img {
+	width: 100%;
+	height: auto;
+}
 /* End of My Works */
